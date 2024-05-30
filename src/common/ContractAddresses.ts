@@ -1340,6 +1340,16 @@ export const CONTRACT_ADDRESSES: {
       abi: CCTP_TOKEN_MESSENGER_CONTRACT_ABI,
     },
   },
+  80002: {
+    cctpMessageTransmitter: {
+      address: "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
+      abi: CCTP_MESSAGE_TRANSMITTER_CONTRACT_ABI,
+    },
+    cctpTokenMessenger: {
+      address: "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
+      abi: CCTP_TOKEN_MESSENGER_CONTRACT_ABI,
+    },
+  },
   59140: {
     l2MessageService: {
       address: "0xC499a572640B64eA1C8c194c43Bc3E19940719dC",

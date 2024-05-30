@@ -65,6 +65,7 @@ export const DEFAULT_MIN_DEPOSIT_CONFIRMATIONS = {
   919: 0,
   59140: 0,
   80001: 0,
+  80002: 0,
   84531: 0,
   84532: 0,
   421613: 0,
@@ -90,6 +91,7 @@ export const MIN_DEPOSIT_CONFIRMATIONS: { [threshold: number | string]: { [chain
     919: 0,
     59140: 0,
     80001: 0,
+    80002: 0,
     84531: 0,
     421613: 0,
   },
@@ -110,6 +112,7 @@ export const MIN_DEPOSIT_CONFIRMATIONS: { [threshold: number | string]: { [chain
     919: 0,
     59140: 0,
     80001: 0,
+    80002: 0,
     84531: 0,
     421613: 0,
   },
@@ -139,6 +142,7 @@ export const CHAIN_MAX_BLOCK_LOOKBACK = {
   919: 10000,
   59140: 10000,
   80001: 10000,
+  80002: 10000,
   84531: 10000,
   84532: 10000,
   421613: 10000,
@@ -168,6 +172,7 @@ export const BUNDLE_END_BLOCK_BUFFERS = {
   919: 0,
   59140: 0,
   80001: 0,
+  80002: 0,
   84531: 0,
   84532: 0,
   421613: 0,
@@ -216,6 +221,7 @@ export const CHAIN_CACHE_FOLLOW_DISTANCE: { [chainId: number]: number } = {
   919: 0,
   59140: 0,
   80001: 0,
+  80002: 0,
   84531: 0,
   84532: 0,
   421613: 0,
@@ -276,6 +282,7 @@ export const multicall3Addresses = {
   420: "0xcA11bde05977b3631167028862bE2a173976CA11",
   59140: "0xcA11bde05977b3631167028862bE2a173976CA11",
   80001: "0xcA11bde05977b3631167028862bE2a173976CA11",
+  80002: "0xcA11bde05977b3631167028862bE2a173976CA11",
   84531: "0xcA11bde05977b3631167028862bE2a173976CA11",
   84532: "0xcA11bde05977b3631167028862bE2a173976CA11",
   421613: "0xcA11bde05977b3631167028862bE2a173976CA11",
@@ -310,6 +317,7 @@ export const chainIdsToCctpDomains: { [chainId: number]: number } = {
   421614: 3, // Arbitrum Sepolia
   84532: 6, // Base Sepolia
   80001: 7, // Polygon PoS Mumbai
+  80002: 7, // Polygon PoS Amoy
 };
 
 /**
