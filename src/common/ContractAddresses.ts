@@ -29,6 +29,8 @@ import BLAST_OPTIMISM_PORTAL_ABI from "./abi/BlastOptimismPortal.json";
 import SCROLL_GATEWAY_ROUTER_L1_ABI from "./abi/ScrollGatewayRouterL1.json";
 import SCROLL_GATEWAY_ROUTER_L2_ABI from "./abi/ScrollGatewayRouterL2.json";
 import SCROLL_GAS_PRICE_ORACLE_ABI from "./abi/ScrollGasPriceOracle.json";
+import SCROLL_CHAIN_ABI from "./abi/ScrollChain.json";
+import SCROLL_MESSAGE_QUEUE_ABI from "./abi/ScrollMessageQueue.json";
 
 // Constants file exporting hardcoded contract addresses per chain.
 export const CONTRACT_ADDRESSES: {
@@ -151,6 +153,10 @@ export const CONTRACT_ADDRESSES: {
     scrollGasPriceOracle: {
       address: "0x0d7E906BD9cAFa154b048cFa766Cc1E54E39AF9B",
       abi: SCROLL_GAS_PRICE_ORACLE_ABI,
+    },
+    scrollChain: {
+      address: "0xa13BAF47339d63B743e7Da8741db5456DAc1E556",
+      abi: SCROLL_CHAIN_ABI,
     },
   },
   10: {
@@ -295,6 +301,10 @@ export const CONTRACT_ADDRESSES: {
     // dataworker won't error.
     eth: {
       address: "0x0000000000000000000000000000000000000000",
+    },
+    scrollMessageQueue: {
+      address: "0x5300000000000000000000000000000000000000",
+      abi: SCROLL_MESSAGE_QUEUE_ABI,
     },
   },
   // Testnets
